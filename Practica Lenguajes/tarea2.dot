@@ -1,0 +1,14 @@
+digraph grafica{
+rankdir=LR;
+node [shape = record, style=filled];
+name [ label ="Ariel Rubelce Macario Coronado" ,fillcolor=blue];
+carnet [ label ="201905837",fillcolor=green];
+correo [ label ="arielmacario.11@gmail.com", fillcolor=red];
+edad [ label ="19 años",fillcolor=yellow];
+curso [ label ="Lenguajes Formales y de programacion",fillcolor=blue];
+seccion [ label ="Sección B",fillcolor=yellow];
+name->carnet
+carnet->correo
+correo->edad
+curso->seccion
+}
